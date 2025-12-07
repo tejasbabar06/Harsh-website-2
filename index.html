@@ -10,7 +10,7 @@
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n.loaded=!0;n.version='2.0';
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
     n.queue=[];t=b.createElement(e);t.async=!0;
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
@@ -79,7 +79,7 @@
       font-size: 14px;
       text-decoration: none;
       cursor: pointer;
-      transition: 0.15s ease;
+      transition: 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
       box-shadow: 0 10px 25px rgba(56,189,248,0.35);
     }
 
@@ -108,7 +108,7 @@
 <body>
   <div class="card">
 
-    <!-- Your Logo -->
+    <!-- Logo -->
     <div class="logo-wrap">
       <img src="img 2.jpg" alt="Logo"
         style="width:80px;height:80px;border-radius:22px;object-fit:cover;" />
